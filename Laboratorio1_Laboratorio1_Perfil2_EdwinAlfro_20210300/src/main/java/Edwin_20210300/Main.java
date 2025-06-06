@@ -20,6 +20,11 @@ public class Main extends Estudiante{
         System.out.print("Escoja una opcion: ");
         int respuesta = scan.nextInt();
 
+        estudiantes.put(1, "Edwin", 17, 8.9)
+        estudiantes.put(2, "Liss", 17, 9)
+        estudiantes.put(3, "Diego", 17, 7.5)
+        estudiantes.put(4, "Joshua", 17, 6)
+
         do {
             switch (respuesta){
                 case 1:
